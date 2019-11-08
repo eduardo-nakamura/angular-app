@@ -1,1 +1,2 @@
-Data Binding in angular - https://scrimba.com/p/pQxesM/cMKm8Tv
+Getting Started - Data Binding in Angular - https://scrimba.com/p/pQxesM/cMKm8Tv - Done
+Directives and Interpolation - Data Binding in Angular - https://scrimba.com/p/pQxesM/cN84ZHq - Doing
