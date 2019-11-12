@@ -1,3 +1,5 @@
 Getting Started - Data Binding in Angular - https://scrimba.com/p/pQxesM/cMKm8Tv - Done
 Directives and Interpolation - Data Binding in Angular - https://scrimba.com/p/pQxesM/cN84ZHq - Done
-Event Binding - Data Binding in Angular - https://scrimba.com/p/pQxesM/cGZgrU8
+Event Binding - Data Binding in Angular - https://scrimba.com/p/pQxesM/cGZgrU8 - done
+Input Properties - Data Binding in Angular - https://scrimba.com/p/pQxesM/cnb8Vu3
+Working with Pipes - Data Binding in Angula - https://scrimba.com/p/pQxesM/cVgdpuE
