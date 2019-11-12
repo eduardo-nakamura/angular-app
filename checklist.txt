@@ -4,3 +4,4 @@ Event Binding - Data Binding in Angular - https://scrimba.com/p/pQxesM/cGZgrU8 -
 Input Properties - Data Binding in Angular - https://scrimba.com/p/pQxesM/cnb8Vu3
 Working with Pipes - Data Binding in Angula - https://scrimba.com/p/pQxesM/cVgdpuE
 Adding Filtering - Data Binding in Angular - https://scrimba.com/p/pQxesM/c6rLPHp
+Angular Services and Http - Services Overview - https://scrimba.com/p/pQxesM/cmGEESQ
