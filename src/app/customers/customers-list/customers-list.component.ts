@@ -7,17 +7,18 @@ import { ICustomer } from '../../shared/interfaces';
     templateUrl: './customers-list.component.html'
 })
 export class CustomersListComponent implements OnInit {
-    private _customers: ICustomer[]=[]
-    @Input () get customers(): ICustomer[]{
-        return this._customers
+    private _customers: ICustomer[] = [];
+    @Input() get customers(): ICustomer[] {
+        return this._customers;
     }
-
-    set customers(value: ICustomer[]){
-        if (value){
-            this.filteredCustomers = this._customers = value
-            this.calculateOrders()
+    
+    set customers(value: ICustomer[]) {
+        if (value) {
+            this.filteredCustomers = this._customers = value;
+            this.calculateOrders();
         }
     }
+
     filteredCustomers: any[] = [];
     customersOrderTotal: number;
     currencyCode: string = 'USD';
@@ -25,7 +26,7 @@ export class CustomersListComponent implements OnInit {
     constructor() {}
     
     ngOnInit() {
-      
+
     }
     
     calculateOrders() {
@@ -34,9 +35,22 @@ export class CustomersListComponent implements OnInit {
             this.customersOrderTotal += cust.orderTotal;
         });
     }
-
+    
+    filter(data: string) {
+        if (data) {
+            this.filteredCustomers = this.customers.filter((cust: ICustomer) => {
+                return cust.name.toLowerCase().indexOf(data.toLowerCase()) > -1 ||
+                       cust.city.toLowerCase().indexOf(data.toLowerCase()) > -1 ||
+                       cust.orderTotal.toString().indexOf(data) > -1;
+            });
+            this.calculateOrders();
+        } else {
+            this.filteredCustomers = this.customers;
+        }
+        this.calculateOrders()
+    }
+    
     sort(prop: string) {
-        //service sort
-        
+        // A sorter service will handle the sorting
     }
 }
