@@ -1,2 +1,3 @@
 Getting Started - Data Binding in Angular - https://scrimba.com/p/pQxesM/cMKm8Tv - Done
-Directives and Interpolation - Data Binding in Angular - https://scrimba.com/p/pQxesM/cN84ZHq - Doing
+Directives and Interpolation - Data Binding in Angular - https://scrimba.com/p/pQxesM/cN84ZHq - Done
+Event Binding - Data Binding in Angular - https://scrimba.com/p/pQxesM/cGZgrU8
